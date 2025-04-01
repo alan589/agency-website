@@ -1,0 +1,109 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 150px 0 150px;
+  background-color: #faf9f6;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://images.unsplash.com/photo-1602576666092-bf6447a729fc?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+.main {
+  flex: 1;
+}
+
+button {
+  display: block;
+  margin-bottom: 150px;
+  background-color: blueviolet;
+  color: #fff;
+  padding: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  border-radius: 18px;
+  cursor: pointer;
+  border: 0;
+}
+
+h1 {
+  font-size: 4.5rem;
+  width: 800px;
+}
+
+h1 span {
+  color: blueviolet;
+  font-style: italic;
+}
+
+footer {
+  text-align: right;
+}
+
+.tile-image {
+  width: 300px;
+  height: 200px;
+  margin-right: 50px;
+  float: left;
+}
+
+.card  {
+  width: 45%;
+  padding: 30px;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.left.card {
+  float: left;
+}
+
+.right.card{
+  float: right;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+.card-title {
+  font-family: "Chonburi", serif;
+
+
+}
+
+@media (max-width: 630px){
+  body {
+    margin: 50px 50px 0 50px;
+  }
+  button {
+    margin: 0 auto 150px auto;
+  }
+  h1 {
+    font-size: 3.4rem;
+    text-align: center;
+  }
+  .tile-image, .card-text {
+    width: 100%;
+  }
+  .left {
+    margin-bottom: 50px;
+  }
+  .right.card, .left.card {
+    width: 81.9%
+  }
+
+  .logo {
+    width: 100px;
+  }
+  h1{
+    font-size: 3rem;
+    width: 100%;
+  }
+}
+
+
+/* 
+[lightsalmon] Mobile Devices: 319px — 480px
+[powderblue] iPads and Tablets: 481px — 1200px
+[limegreen] Laptops: 1201px — 1600px
+[seagreen] Desktops: 1601px and more */
